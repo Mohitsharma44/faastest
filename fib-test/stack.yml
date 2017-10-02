@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  fib:
+    lang: python
+    handler: ./fib
+    image: mohitsharma44/faastest-fibtest
